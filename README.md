@@ -1,6 +1,6 @@
 # Gollum wiki
 
-My wiki for my private wiki
+My wiki 
 
 
 ## Usage 
