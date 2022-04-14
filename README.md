@@ -1,6 +1,6 @@
 # Gollum wiki
 
-My wiki 
+My wiki for notes
 
 
 ## Usage 
