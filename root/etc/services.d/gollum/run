@@ -1,0 +1,3 @@
+#!/command/with-contenv sh
+
+gollum --port 8080 --emoji --allow-uploads page --h1-title --css --js --config /config.rb /wiki
