@@ -1,3 +1,4 @@
 #!/command/with-contenv sh
 
-gollum --port 8080 --emoji --allow-uploads page --h1-title --css --js --config /config.rb /wiki
+export HOME="/config"
+/command/s6-applyuidgid -g ${PGID:-911} -u ${PUID:-911} /config/run.sh
